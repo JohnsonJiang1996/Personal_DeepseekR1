@@ -1,4 +1,4 @@
-# Guideness of Running Local 7B DeepSeek R1 by Sicong Jiang 
+# Guidelines of Running Local 7B DeepSeek R1 by Sicong Jiang 
 
 This guide will help you quickly set up and use DeepSeek R1 via a Docker image on our lab server. Follow these steps, and you'll be chatting with one of the smartest AI models in no time!
 
