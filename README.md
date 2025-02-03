@@ -19,8 +19,6 @@ Before starting:
 Open your terminal and SSH into the lab server:
 
 ```bash
-
-
 ssh your_username@server_ip
 ```
 
@@ -86,32 +84,31 @@ Keep this terminal open! It’s running the service in the background.
 You need a second terminal to interact with the model. Open another terminal and reconnect to the server:
 
 ```bash
-
-
 ssh your_username@server_ip
 ```
 
 Then attach to the running container:
 
 ```bash
-
-
 docker exec -it deepseek_container /bin/bash
 ```
 
 Inside the container, run the model:
 
 ```bash
-
-
 ollama run deepseek-r1:7b
 ```
+
+if you choose the deepseek with higher para version, use:
+
+```bash
+ollama run deepseek-r1:70b
+```
+
 
 You can now chat directly with the model in this terminal! For example:
 
 ```plaintext
-
-
 > Hello, DeepSeek!
 DeepSeek: Hi there! How can I assist you today?
 ```
